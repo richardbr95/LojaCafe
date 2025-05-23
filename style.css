@@ -19,14 +19,16 @@
   padding-right: 10px;
 }
 
-.single-contact::after {
+.single-contact:after {
   background: #614a3d none repeat scroll 0 0;
   border-color: #614a3d;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+  content: "";
   height: 90px;
   left: 0;
   opacity: 0;
   -ms-filter: "prodid:DXImageTransfrom.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
   top: 0;
   -webkit-transform: all 0.2s ease 0s;
   transition: all 0.2 ease 0s;
