@@ -170,7 +170,7 @@ ul {
   color: #fff;
   display: inline-block;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 44px;
   padding: 0 35px;
   text-transform: uppercase;
@@ -1116,23 +1116,23 @@ textarea {
 }
 
 .bg-1 {
-  background-image: url();
+  background-image: url("../../img/bg/bgCoffe1.jpg");
 }
 .bg-2 {
-  background-image: url();
+  background-image: url("../../img/bg/bgCoffe2.jpg");
 }
 
 .bg-3 {
-  background-image: url();
+  background-image: url("../../img/bg/bgCoffe3.jpg");
   background-position: 55% bottom;
 }
 
 .bg-4 {
-  background-image: url();
+  background-image: url("../../img/bg/bgCoffe4.jpg");
   background-position: 51% bottom;
 }
 .bg-5 {
-  background-image: url();
+  background-image: url("../../img/bg/bgCoffe5.jpg");
   background-position: right top;
 }
 
