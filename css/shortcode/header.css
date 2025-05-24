@@ -68,7 +68,7 @@
 .main-menu ul li:hover > ul {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  visibility: hidden;
+  visibility: visible;
 }
 
 .main-menu ul li ul li a {
@@ -377,10 +377,9 @@
   display: block;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  visibility: hidden;
+  visibility: visible;
   z-index: 2;
 }
-
 .sticky .search {
   top: 42px;
 }

@@ -27,10 +27,10 @@
   height: 90px;
   left: 0;
   opacity: 0;
-  -ms-filter: "prodid:DXImageTransfrom.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   position: absolute;
   top: 0;
-  -webkit-transform: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2 ease 0s;
   width: 100%;
 }
@@ -51,7 +51,7 @@
 
 .single-contact:hover .information h4,
 .single-contact:hover .information h4 span {
-  color: #ffffffff;
+  color: #fff;
   top: 3px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .hover-text > h1 {
-  color: #ffffffff;
+  color: #fff;
   font-family: "Courgette", cursive;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -141,7 +141,7 @@
 
 .hover-text > p {
   bottom: 28%;
-  color: #ffffffff;
+  color: #fff;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   padding: 0;
@@ -178,7 +178,7 @@
 
 .hover-text .price {
   bottom: 17%;
-  color: #ffffffff;
+  color: #fff;
   display: block;
   font-size: 20px;
   font-weight: 500;
@@ -238,7 +238,7 @@
 
 .active.day {
   background: #614a3d none repeat scroll 0 0;
-  color: #ffffffff;
+  color: #fff;
 }
 
 .day {
@@ -248,7 +248,7 @@
 
 .datepicker thead tr:nth-child(2) {
   background: #614a3d none repeat scroll 0 0;
-  color: #ffffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -280,19 +280,19 @@
 }
 
 .client-rating i {
-  color: #ffffffff;
+  color: #fff;
   font-size: 18px;
   margin: 0 1px;
 }
 
 .single-tesimonial > h4 {
-  color: #ffffffff;
+  color: #fff;
   font-weight: 500;
   margin-top: 12px;
 }
 
 .single-client {
-  background: #ffffffff none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   display: table;
   height: 112px;
   text-align: center;
@@ -321,7 +321,7 @@
 }
 .owl-dot {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 2px solid #ffffffff;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: inline-block;
   height: 14px;
@@ -333,7 +333,7 @@
 }
 
 .owl-dot::after {
-  background: #ffffffff none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   border-radius: 50%;
   content: "";
   height: 20px;
