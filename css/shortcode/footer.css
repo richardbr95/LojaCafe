@@ -25,9 +25,9 @@
   font-size: 16px;
   width: 34px;
 }
-/* de 24px para 200px */
+
 .single-footer-widget > p.margin {
-  margin-bottom: 200px;
+  margin-bottom: 24px;
 }
 
 .open-time {

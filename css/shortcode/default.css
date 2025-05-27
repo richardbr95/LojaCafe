@@ -1117,22 +1117,26 @@ textarea {
 
 .bg-1 {
   background-image: url("../../img/bg/bgCoffe1.jpg");
+  height: 100%;
+  width: 100%;
 }
 .bg-2 {
   background-image: url("../../img/bg/bgCoffe2.jpg");
+  height: 100%;
+  width: 100%;
 }
 
 .bg-3 {
-  background-image: url("../../img/bg/bgCoffe3.jpg");
+  background-image: url("../../img/bg/bgCoffe1.jpg");
   background-position: 55% bottom;
 }
 
 .bg-4 {
-  background-image: url("../../img/bg/bgCoffe4.jpg");
+  background-image: url("../../img/bg/bgCoffe1.jpg");
   background-position: 51% bottom;
 }
 .bg-5 {
-  background-image: url("../../img/bg/bgCoffe5.jpg");
+  background-image: url("../../img/bg/bgCoffe1.jpg");
   background-position: right top;
 }
 

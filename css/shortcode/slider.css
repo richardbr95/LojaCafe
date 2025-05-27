@@ -6,15 +6,10 @@ body {
 }
 
 .slider-area {
-  position: relative;
+  position: static;
   overflow: hidden;
 }
 
-.slider-area img {
-  width: 100%;
-}
-
-.slider-area,
 .banner-content,
 .single-slide,
 .owl-item,
@@ -29,7 +24,7 @@ body {
 .banner-content .text-content,
 .banner-content .display-table,
 .banner-content .display-table-cell {
-  image-rendering: auto;
+  height: 100%;
 }
 
 .text-content-wrapper,
