@@ -383,3 +383,44 @@
 .sticky .search {
   top: 42px;
 }
+
+/* Menu Responsive */
+@media (max-width: 767px) {
+  .main-menu {
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+  }
+
+  .main-menu ul li {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-bottom: -8px;
+  }
+  .main-menu ul li a {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    color: #000;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .main-menu ul li a:hover {
+    color: #464646;
+  }
+  .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 1px solid transparent;
+    box-shadow: none;
+    -webkit-overflow-scrolling: touch;
+  }
+}

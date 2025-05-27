@@ -33,16 +33,29 @@
   </head>
   <body>
     <header class="fixed">
-      <div class="header-area ptb-30 header-sticky">
-        <div class="container">
+      <nav class="navbar header-area ptb-30 header-sticky">
+        <div class="container container-fluid">
           <div class="row">
-            <div class="col-md-3 col-xs-12">
-              <div class="log">
-                <a href="#"><img src="" alt="" /></a>
+            <div class="navbar-header col-md-3 col-sm-4 col-xs-12">
+              <div class="logo">
+                <button
+                  type="button"
+                  class="navbar-toggle collapse"
+                  data-toggle="collapse"
+                  data-target="#menu-list"
+                  aria-expanded="false"
+                  style="border: 1px solid #fff; border-radius: 0px"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="sr-only" style="background-color: #fff"></span>
+                  <span class="sr-only" style="background-color: #fff"></span>
+                  <span class="sr-only" style="background-color: #fff"></span>
+                </button>
+                <a href="#"> <img src="img/logo/cafeLogo.png" alt="" /> </a>
               </div>
             </div>
-            <div class="col-md-9 col-xs-12">
-              <div class="content-wrapper">
+            <div class="collapse navbar-collapse" id="menu-list">
+              <div class="nav navbar navbar-right content-wrapper">
                 <div class="main-menu text-right">
                   <nav>
                     <ul>
@@ -53,23 +66,21 @@
                   </nav>
                 </div>
                 <div class="mobile-menu hidden-lg hidden-md"></div>
-                <!-- Main Menu End-->
-                <!-- Search Form Start-->
                 <div class="search-btn">
                   <ul
                     data-toggle="dropdown"
                     class="header-search search-toggle"
                   >
                     <li class="search-menu">
-                      <i class="zmdi zmdi-search"> </i>
+                      <i class="zmdi zmdi-search"></i>
                     </li>
                   </ul>
                   <div class="search">
-                    <div class="sarch-form">
-                      <form action="" id="search-form">
+                    <div class="search-form">
+                      <form id="search-form" action="#">
                         <input
                           type="search"
-                          placeholder="Faça sua pesquisa"
+                          placeholder="Faça a sua pesquuisa"
                           name="search"
                         />
                         <button type="submit">
@@ -78,13 +89,12 @@
                       </form>
                     </div>
                   </div>
-                  <!--End of Search Form-->
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <section class="breadcrumb-area overlay-2 bg-4">
