@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto - Menu</title>
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"
+    />
+    <!--Font Awesome Modificada-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    />
+    <!--Icones Google-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <!-- CSS Custom-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/shortcode/shortcode.css" />
   </head>
   <body>
     <header class="fixed">
@@ -17,7 +41,7 @@
             </div>
             <div class="col-md-9 col-xs-12">
               <div class="content-wrapper">
-                <div class="main-menu tex-right">
+                <div class="main-menu text-right">
                   <nav>
                     <ul>
                       <li><a href="index.html">Home</a></li>
@@ -30,7 +54,10 @@
                 <!-- Main Menu End-->
                 <!-- Search Form Start-->
                 <div class="search-btn">
-                  <ul data-toggle="dropdow" class="header-search search-toggle">
+                  <ul
+                    data-toggle="dropdown"
+                    class="header-search search-toggle"
+                  >
                     <li class="search-menu">
                       <i class="zmdi zmdi-search"> </i>
                     </li>
@@ -66,8 +93,8 @@
               <h3>Menu</h3>
               <div class="breadcrumb-bar">
                 <ul class="breadcrumb">
-                  <li><a href="#">Home</a></li>
-                  <li>Menu</li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
                 </ul>
               </div>
             </div>
@@ -82,7 +109,7 @@
           <div class="col-md-6 col-md-offset-3">
             <div class="section-title text-center">
               <h1>Produtos</h1>
-              <span><img src="" alt="" /></span>
+              <span><img src="  " alt="" /></span>
               <p>Veja os nossos produtos</p>
             </div>
           </div>
@@ -91,61 +118,79 @@
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 10,00</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 01</a></h4>
-              <span>Descrição do Produto 01</span>
+              <h4><a href="#">Grão & Aroma</a></h4>
+              <span
+                >Evoca a essência do café, destacando o sabor e o aroma
+                envolvente da bebida.</span
+              >
             </div>
           </div>
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 6,00</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 02</a></h4>
-              <span>Descrição do Produto 02</span>
+              <h4><a href="#">Café Encantado</a></h4>
+              <span
+                >Sugere um ambiente mágico e acolhedor, perfeito para momentos
+                especiais.</span
+              >
             </div>
           </div>
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 5,00</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 03</a></h4>
-              <span>Descrição do Produto 03</span>
+              <h4><a href="#">Café & Conversa</a></h4>
+              <span
+                >Ideal para um espaço que promove encontros e boas conversas
+                entre amigos.</span
+              >
             </div>
           </div>
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 4,90</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 04</a></h4>
-              <span>Descrição do Produto 04</span>
+              <h4><a href="#">Café do Sol</a></h4>
+              <span
+                >Remete a um local iluminado e alegre, perfeito para começar o
+                dia com energia.</span
+              >
             </div>
           </div>
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 8,30</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 05</a></h4>
-              <span>Descrição do Produto 05</span>
+              <h4><a href="#">Café da Tarde no Céu</a></h4>
+              <span
+                >Cria uma imagem poética e relaxante, ideal para um ambiente
+                tranquilo.</span
+              >
             </div>
           </div>
           <div class="col-md-3 col-sm-4">
             <div class="single-menu text-center">
               <div class="menu-image">
-                <span>R$: 0,00</span>
-                <a href="#"><img src="" alt="" /></a>
+                <span>R$: 9,00</span>
+                <a href="#"><img src="img/products/cafe1.png" alt="" /></a>
               </div>
-              <h4><a href="#">Café 06</a></h4>
-              <span>Descrição do Produto 06</span>
+              <h4><a href="#">Café Diamante</a></h4>
+              <span
+                >Transmite sofisticação e exclusividade, atraindo um público que
+                valoriza o luxo.</span
+              >
             </div>
           </div>
           <div class="col-md-12 text-center menu-btn col-sm-12 col-xs-12">

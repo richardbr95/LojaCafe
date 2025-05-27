@@ -11,10 +11,16 @@
       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"
     />
-    <!--OWL Carousel-->
+
+    <!-- Owl Carousel core CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <!-- Owl Carousel default theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
     />
     <!-- Animate CSS-->
     <link
@@ -30,6 +36,11 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <!-- ZMDI-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-design-iconic-font@2.2.0/dist/css/material-design-iconic-font.min.css"
     />
     <!-- CSS Custom-->
     <link rel="stylesheet" href="style.css" />
@@ -72,7 +83,7 @@
                     </li>
                   </ul>
                   <div class="search">
-                    <div class="sarch-form">
+                    <div class="search-form">
                       <form action="" id="search-form">
                         <input
                           type="search"
@@ -107,8 +118,11 @@
                   <div class="text-content-wrapper">
                     <div class="text-content text-center">
                       <h3 class="pt-70">Seja bem vindo</h3>
-                      <h1>Nome do Produto</h1>
-                      <p>Descrição do Produto</p>
+                      <h1>Café Aroma Natureza</h1>
+                      <p>
+                        Um café especial, com aroma intenso e sabor encorpado,
+                        ideal para os amantes de um bom espresso.
+                      </p>
                       <div class="banner-btn">
                         <a href="#" class="default-btn">
                           <span>Visualizar</span>
@@ -133,8 +147,12 @@
                   <div class="text-content-wrapper">
                     <div class="text-content text-center">
                       <h3 class="pt-70">Seja bem vindo</h3>
-                      <h1>Nome do Produto 2</h1>
-                      <p>Descrição do Produto 2</p>
+                      <h1>Café Orgânico da Serra</h1>
+                      <p>
+                        Produzido nas montanhas, 100% arábica, com notas de
+                        chocolate amargo e baixa acidez. Ideal para métodos
+                        filtrados.
+                      </p>
                       <div class="banner-btn">
                         <a href="#" class="default-btn"
                           ><span>Visualizar</span></a
@@ -249,7 +267,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <div class="testimonial-carousel">
-              <div class="single-tesimonial text-center">
+              <div class="single-testimonial text-center">
                 <p>Avaliação 01</p>
                 <div class="client-rating">
                   <i class="zmdi zmdi-star"></i>
@@ -262,7 +280,7 @@
                   <a href="#">William Souza</a>
                 </h4>
               </div>
-              <div class="single-tesimonial text-center">
+              <div class="single-testimonial text-center">
                 <p>Avaliação 02</p>
                 <div class="client-rating">
                   <i class="zmdi zmdi-star"></i>
@@ -275,7 +293,7 @@
                   <a href="#">Adriana Carvalho</a>
                 </h4>
               </div>
-              <div class="single-tesimonial text-center">
+              <div class="single-testimonial text-center">
                 <p>Avaliação 03</p>
                 <div class="client-rating">
                   <i class="zmdi zmdi-star"></i>
@@ -288,7 +306,7 @@
                   <a href="#">Robson</a>
                 </h4>
               </div>
-              <div class="single-tesimonial text-center">
+              <div class="single-testimonial text-center">
                 <p>Avaliação 04</p>
                 <div class="client-rating">
                   <i class="zmdi zmdi-star"></i>
@@ -301,7 +319,7 @@
                   <a href="#">Matheus</a>
                 </h4>
               </div>
-              <div class="single-tesimonial text-center">
+              <div class="single-testimonial text-center">
                 <p>Avaliação 05</p>
                 <div class="client-rating">
                   <i class="zmdi zmdi-star"></i>
@@ -431,7 +449,7 @@
                   </form>
                   <div class="mailchimp-alerts">
                     <div class="mailchimp-submit"></div>
-                    <div class="mailchimp-sucess"></div>
+                    <div class="mailchimp-success"></div>
                     <div class="mailchimp-error"></div>
                   </div>
                 </div>
@@ -461,12 +479,18 @@
         </div>
       </div>
     </section>
+    <!-- jQuery (precisa ser carregado primeiro) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- OWL Carousel  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>-->
+
+    <!-- Seu script principal -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
+    <script src="js/main.js"></script>
   </body>
-  <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!--Bootstrap-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <!-- Custom JS -->
-  <!-- <script src="js/owl.carousel.min.js"></script> -->
-  <script src="js/main.js"></script>
 </html>
